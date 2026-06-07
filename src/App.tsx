@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Routes from './routes';
+import Routes from './routes.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
