@@ -1,0 +1,38 @@
+# self-ignore
+file_ignore.txt
+
+# build
+target/
+build/
+out/
+agent/
+
+# vcs / ide
+.git/
+.idea/
+.vscode/
+
+# temp
+*.log
+*.tmp
+*.swp
+
+# dependencies
+node_modules/
+
+# resources that are too noisy
+src/main/resources/static/
+src/main/resources/public/
+
+# hidden files
+.*
+
+# but keep these
+# !.gitignore
+# !.treeignore
+# !src/main/resources/application.yml
+
+# mvn
+*mvnw
+*.cmd
+
