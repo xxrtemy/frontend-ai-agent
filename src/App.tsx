@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './styles/global.css' // подключение стилей
 import './App.css'
 
 function App() {

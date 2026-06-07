@@ -1,5 +1,6 @@
 import React from 'react';
 import FeedbackForm from '../components/FeedbackForm';
+import '../styles/global.css'; // подключение стилей
 
 const FeedbackPage = () => {
   return (
