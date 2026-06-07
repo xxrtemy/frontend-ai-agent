@@ -14,6 +14,11 @@ body {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .feedback-page h1 {
@@ -24,6 +29,7 @@ body {
 .feedback-page form {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .feedback-page label {
@@ -35,6 +41,7 @@ body {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
 }
 
 .feedback-page button {
