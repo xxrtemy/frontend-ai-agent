@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Routes from './routes.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Routes />
       <section id="center">
         <div className="hero">
 
