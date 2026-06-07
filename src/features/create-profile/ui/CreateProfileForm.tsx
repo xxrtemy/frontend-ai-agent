@@ -1,7 +1,7 @@
 // CreateProfileForm.tsx
 
 import React, { useState } from 'react';
-import { CreateProfileSchema } from '../../model';
+import { CreateProfileSchema } from '@/features/create-profile/model';
 
 interface CreateProfileFormProps {
   onSubmit: (data: CreateProfileSchema) => void;
