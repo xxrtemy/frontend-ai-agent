@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { ProfilePage } from '@/pages/profile';
 import './styles/global.css' // подключение стилей
 import './App.css'
 
@@ -6,7 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <Router>
+      <Switch>
+        <Route path="/profile" component={ProfilePage} />
+        {/* Другие роуты */}
+      </Switch>
       <section id="center">
         <div className="hero">
 
@@ -109,7 +115,7 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-    </>
+    </Router>
   )
 }
 
