@@ -6,11 +6,11 @@ import App from './App';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: App,
   },
   {
     path: '/feedback',
-    element: <FeedbackPage />,
+    element: FeedbackPage,
   },
 ]);
 
